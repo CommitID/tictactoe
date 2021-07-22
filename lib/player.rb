@@ -11,6 +11,6 @@ class Player
     return @@all_players
   end 
 end 
-amelie = Player.new("Amelie", "X")
-paul = Player.new("Paul", "O")
+florent = Player.new("Florent", "X")
+mathieu = Player.new("Mathieu", "O")
 
