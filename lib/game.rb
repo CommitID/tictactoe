@@ -1,7 +1,9 @@
 require_relative "./board"
 require_relative "./player"
 require_relative "./show"
+
 require 'pry'
+
 class Game 
   attr_accessor :player1, :player2, :current_player, :status, :board, :all_players
   def initialize(name1,name2)

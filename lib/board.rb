@@ -16,7 +16,7 @@ class Board
   def play_turn(player)
     good_case = false 
     while !good_case 
-      puts 'Sur quelle case veux-tu jouer ? Saisie une valeur parmi A1, A2, A3, B1, B2, B3, C1, C2, C3'
+      puts 'Sur quelle case veux-tu jouer ? Saisis une valeur parmi A1, A2, A3, B1, B2, B3, C1, C2, C3'
       print '>'
       case_player = gets.chomp #doit rentrer A1, ou A2 ... etc
       @array_squares.each_with_index do |square, index|
